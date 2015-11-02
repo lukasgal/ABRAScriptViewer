@@ -1,0 +1,5 @@
+body {font-family: Courirer;font-size: 10pt;}
+.lineNumbers {width:30px;float:left;text-align:right;background: silver;color:red;display: inline-table;font-family: Courirer;font-size: 10pt;}
+.script {margin-left: 20px;float:left;display:inline-table;width:400px;font-family: Courirer;font-size: 10pt;}
+.keyword {font-weight: bold;color:navy;}
+.comment {text-decoration:italic;color:gray;}
