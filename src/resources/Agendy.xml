@@ -1,0 +1,1338 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Lukáš Gál</Author>
+  <LastAuthor>Lukáš Gál</LastAuthor>
+  <Created>2015-11-03T20:37:13Z</Created>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8010</WindowHeight>
+  <WindowWidth>20115</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>30</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65" ss:Name="Hypertextový odkaz">
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#0000FF" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="List1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="206" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="173.25"/>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Název</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CLSID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PackedCLSID</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_N1C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Adresář firem</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255098-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">N1C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_NDC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Adresář osob</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7425509A-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NDC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SH3NMKUXA5CO1JCRFZKXPJMDMS.htm"><Data
+      ss:Type="String">Akční ceníky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{433947C3-315D-4051-BD17-5FE1DABE4996}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SH3NMKUXA5CO1JCRFZKXPJMDMS</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_XBWWBPBOFFY4351OILNPC4KW34.htm"><Data
+      ss:Type="String">Balíčky skriptů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D4C3F9E9-5AF4-41FC-9434-746754121C19}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">XBWWBPBOFFY4351OILNPC4KW34</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_T4BOMK5CHNT4NF0XNOW2HJ1GD4.htm"><Data
+      ss:Type="String">Bankovní reporty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{40490FC9-6CA8-49F2-AC1D-9D3826BC2C49}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">T4BOMK5CHNT4NF0XNOW2HJ1GD4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_R5C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Bankovní účty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550B9-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">R5C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_R1C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Bankovní výpisy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550B8-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">R1C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_AQ4SKEQMGDL4TC4ST55P1DC2X0.htm"><Data
+      ss:Type="String">Blokace dokladů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{2A888935-62D2-4C62-A098-C94B50A502E8}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AQ4SKEQMGDL4TC4ST55P1DC2X0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_G5GESPQ23FE13DQC01C0CX3F40.htm"><Data
+      ss:Type="String">Ceníky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{56AC5861-1AC2-11D4-A6C8-005004746B20}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">G5GESPQ23FE13DQC01C0CX3F40</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_R4HWQJQJTA4ORH5KTU1WNDTXNS.htm"><Data
+      ss:Type="String">Daňově uznatelné nerealizované kurzové rozdíly</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{3ECB1BB9-C9CF-4B89-B4B0-CE83C9A73D9E}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">R4HWQJQJTA4ORH5KTU1WNDTXNS</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_UYQKGUQWDC3OD2XUW0334DG5PC.htm"><Data
+      ss:Type="String">Daňové zálohové listy přijaté</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{6A06ADD7-4ADC-4407-8BBA-E006322585AA}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UYQKGUQWDC3OD2XUW0334DG5PC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_ZSR1DT11PBWOJ3MELFAGIQ22QO.htm"><Data
+      ss:Type="String">Daňové zálohové listy vydané</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E4142EFE-A921-47F9-8E4A-8ACCC75842B5}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ZSR1DT11PBWOJ3MELFAGIQ22QO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_RTC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Dealerské slevy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550BE-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RTC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SDC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Dealerské třídy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C2-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SDC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SHC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Definice cen</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C3-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SHC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_N5C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Definice klíčů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255099-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">N5C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_M1ICEQGDAXGON5WWIIDEYBFYPW.htm"><Data
+      ss:Type="String">Definice pro DPH přiznání</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{59855C90-3789-4959-979C-7392AF1D7EAF}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">M1ICEQGDAXGON5WWIIDEYBFYPW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_TEFELDRGVDFOVDKID0NTISE124.htm"><Data
+      ss:Type="String">Definice stat.hodnoty na vstupu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{A6A896CA-DAEC-4D57-A60E-482797614111}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEFELDRGVDFOVDKID0NTISE124</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_PZ4TP0UHUIUODIDWSB121XLLKK.htm"><Data
+      ss:Type="String">Definice stat.hodnoty na výstupu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{839AC9AF-D34D-44B5-B93C-C1C220F63184}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PZ4TP0UHUIUODIDWSB121XLLKK</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_X0LZE0HIE5WOJBPFVQRNNNVAP0.htm"><Data
+      ss:Type="String">Definovatelné B2B importy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{01F523E8-51AE-4779-9EAB-DDAF39CF66A8}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">X0LZE0HIE5WOJBPFVQRNNNVAP0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_G5P50I05CJF13FG501C0C2VN0K.htm"><Data
+      ss:Type="String">Definovatelné formuláře</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{38506A61-4305-11D6-AD85-0050040B7304}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">G5P50I05CJF13FG501C0C2VN0K</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_S4JI2RKYABF13JXS00KEZYD5AW.htm"><Data
+      ss:Type="String">Definovatelné položky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{5EE11EC1-311E-11D6-BFB8-0020AFF92537}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">S4JI2RKYABF13JXS00KEZYD5AW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_ZFQNOUBQ4NEO5APLFIS5352F2O.htm"><Data
+      ss:Type="String">Dílčí inventární protokoly</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{683AEDFA-24F6-42D5-9AB1-5BB051944B15}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ZFQNOUBQ4NEO5APLFIS5352F2O</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_S24RE20IPZDL342W01C0CX3FCC.htm"><Data
+      ss:Type="String">Dílčí skl. karty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{087589C0-AF0E-11D3-905C-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">S24RE20IPZDL342W01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_A1TAS3OJNGU4HE5WCEMWHOQDFO.htm"><Data
+      ss:Type="String">Dílčí šarže/sér.č.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{0E6C7230-9B8F-4634-A8BC-42A5C6D2C95D}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A1TAS3OJNGU4HE5WCEMWHOQDFO</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_G0DSSJKGJFP4JDDUACIK2KGSG0.htm"><Data
+      ss:Type="String">Dobropisy daňových zálohových listů přijatých</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{3E8C1360-7A0C-47EA-A53A-321D01419860}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">G0DSSJKGJFP4JDDUACIK2KGSG0</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_212YMDVVGRSOJ4T4GDIQ5XVYMW.htm"><Data
+      ss:Type="String">Dobropisy daňových zálohových listů vydaných</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{27E94510-657B-47F1-9324-625D62F77E97}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">212YMDVVGRSOJ4T4GDIQ5XVYMW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_42VOLQXZBRDL3A2D01C0CSUFSG.htm"><Data
+      ss:Type="String">Dobropisy faktur přijatých</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DB48B720-3DBF-11D3-9849-005004634BC3}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">42VOLQXZBRDL3A2D01C0CSUFSG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_T1C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Dobropisy faktur vydaných</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C8-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">T1C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_B50I5SAOS3DL3ACU03KIU0CLP4.htm"><Data
+      ss:Type="String">Dodací listy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E0E24039-C0D4-11D3-991A-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">B50I5SAOS3DL3ACU03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_OCV4S3AZGJ34N24NPT2U3RAXG0.htm"><Data
+      ss:Type="String">Dodavatelské ceníky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{0C4C36A2-63DF-49C6-8893-AE45A1DCDD60}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OCV4S3AZGJ34N24NPT2U3RAXG0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_BC5EFWY1AYX4TD0LXMR0HCUZ5O.htm"><Data
+      ss:Type="String">Doklady reverse charge</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{F3A50A3A-37C1-4CBA-A411-ECAE06A35F2D}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BC5EFWY1AYX4TD0LXMR0HCUZ5O</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_YQ5KSWV4H014LCO3KDGKSKAOIK.htm"><Data
+      ss:Type="String">Dokumenty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{730C8BF5-6864-4802-A283-82590C40D474}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">YQ5KSWV4H014LCO3KDGKSKAOIK</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_QPC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">DPH indexy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550B5-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">QPC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_DFYWIZOEAFWOLFMIAI2UQORGJO.htm"><Data
+      ss:Type="String">DPH registrace v zemích EU</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7EC7FD4A-328A-48F9-AE4E-3385AB52EC7D}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DFYWIZOEAFWOLFMIAI2UQORGJO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_QLC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">DPH sazby</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550B4-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">QLC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_XSAO1N1LSIL4FHUS0N34QD0JWW.htm"><Data
+      ss:Type="String">Druhy dopravy INTRASTAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{CC400DEE-C331-45A2-B758-04C64B240FE7}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">XSAO1N1LSIL4FHUS0N34QD0JWW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_C222DYEAABF13FG501C0C2VN0K.htm"><Data
+      ss:Type="String">Druhy směn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{F9248440-3146-11D6-AD85-0050040B7304}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">C222DYEAABF13FG501C0C2VN0K</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_BB0S5QWW0HD4VIL4KAJWIAFUZW.htm"><Data
+      ss:Type="String">Druhy výkonů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DB82C139-039C-4D52-BA24-819FC7197AFF}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BB0S5QWW0HD4VIL4KAJWIAFUZW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_IA3TXJGFWXUONBMTPVR2ALCYWG.htm"><Data
+      ss:Type="String">Důvody neúspěchu nabídek vydaných</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{BD9E8771-E78B-4975-9E59-AEEE23451EE3}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IA3TXJGFWXUONBMTPVR2ALCYWG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_PDC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Editor</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550AA-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PDC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_PPC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Faktury přijaté</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550AD-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PPC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_PLC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Faktury vydané</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550AC-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PLC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_QJWSRLWLX3Q4FE5AUNGKHBN0DC.htm"><Data
+      ss:Type="String">Finanční kategorie</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{C78BF9B3-E891-45EC-A8A6-D4D9069E604A}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">QJWSRLWLX3Q4FE5AUNGKHBN0DC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_K0V1RJWEYRDL3C5P00CA141B44.htm"><Data
+      ss:Type="String">Finanční slevy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{BF1B3680-F58A-11D3-A0B5-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">K0V1RJWEYRDL3C5P00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_OHC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Firemní údaje</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550A3-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OHC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_3V23L22I3234P3RQYSPNLUQBT0.htm"><Data
+      ss:Type="String">Fronty souborů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{8838C41E-184E-4A86-8EF6-F62B38EAC7C8}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3V23L22I3234P3RQYSPNLUQBT0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_TPUWSWR5K5MOZF2FX00VOGU2T4.htm"><Data
+      ss:Type="String">Fulltextové hledání</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{72CC75CD-81E5-4F65-AC4B-E801BA3342C9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TPUWSWR5K5MOZF2FX00VOGU2T4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_G3TEDAJFKTB4ZG1ZXPSCAIIWO4.htm"><Data
+      ss:Type="String">Hlavní inventární protokoly</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{99A4F260-86EB-4F4E-B03F-ED708339DCA1}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">G3TEDAJFKTB4ZG1ZXPSCAIIWO4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_3JTNCCOL3K04RH2LA2ZD2VYTW4.htm"><Data
+      ss:Type="String">Hlavní kniha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{2234F31B-1C91-4B00-B451-30BE916FD9E1}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3JTNCCOL3K04RH2LA2ZD2VYTW4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_ZXAW35QWH14ON0ZZMT2EY0NGJO.htm"><Data
+      ss:Type="String">Hodnocení dodavatelé</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{96C14DFF-68DC-4949-83FF-9644AF026C7D}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ZXAW35QWH14ON0ZZMT2EY0NGJO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_D50CW35SW4GONAMDX3YQBVKKB4.htm"><Data
+      ss:Type="String">Instalační sady</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{0C8E4049-E1B8-4919-9A49-E8FD63EE1039}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">D50CW35SW4GONAMDX3YQBVKKB4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_MDC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Interní doklady</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255092-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MDC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_BT0I5SAOS3DL3ACU03KIU0CLP4.htm"><Data
+      ss:Type="String">Inventární manka</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E0E2403E-C0D4-11D3-991A-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BT0I5SAOS3DL3ACU03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_BP0I5SAOS3DL3ACU03KIU0CLP4.htm"><Data
+      ss:Type="String">Inventární přebytky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E0E2403D-C0D4-11D3-991A-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BP0I5SAOS3DL3ACU03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_OF0KTDT1XBDL3DQA01C0CX3F40.htm"><Data
+      ss:Type="String">Inventura</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{A70CC1A2-E921-11D3-A6C6-005004746B20}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OF0KTDT1XBDL3DQA01C0CX3F40</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_K1KJYSAJHFDL3BLX00C5OG4NF4.htm"><Data
+      ss:Type="String">JSD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{60FF6080-6ACF-11D3-9E3D-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">K1KJYSAJHFDL3BLX00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_DAL0YEKTWGE4X5GR3D5HGDJCCW.htm"><Data
+      ss:Type="String">Kategorie dokumentů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{2A0FA249-E319-4E14-9597-1A4AD625E847}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DAL0YEKTWGE4X5GR3D5HGDJCCW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_AVNWANKEAHWOXBQKI1I5EKJ240.htm"><Data
+      ss:Type="String">Kategorizační údaje</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{4EC3E736-330A-4E79-9ED0-705C5541E220}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AVNWANKEAHWOXBQKI1I5EKJ240</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_N3DADBB3TUFOJGK041IHC2A4VO.htm"><Data
+      ss:Type="String">Kódy NACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{9C64D298-CEE3-4797-B200-205CD408C4DD}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">N3DADBB3TUFOJGK041IHC2A4VO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_GIP5RA4HVG2OFEFJDFMHNGLXBG.htm"><Data
+      ss:Type="String">Kombinovaná nomenklatura</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{985BAA63-DB8D-4505-A96F-4AE4D9B23D3B}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GIP5RA4HVG2OFEFJDFMHNGLXBG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_CGAUTOW5YRDL3C5P00CA141B44.htm"><Data
+      ss:Type="String">Konstantní symboly</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D3AC0D43-F585-11D3-A0B5-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CGAUTOW5YRDL3C5P00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_W1PYWX0SWHUOZBPMS0Z1QLPGZ0.htm"><Data
+      ss:Type="String">Kontrola nespolehlivých plátců DPH podle firem</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74EE6BE0-E318-4F75-9EB2-C03E1B46ACF8}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">W1PYWX0SWHUOZBPMS0Z1QLPGZ0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_RIKWWASIMHXOF3GZ43ZEK1JRP4.htm"><Data
+      ss:Type="String">Konverze bankovních účtů na IBAN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1BCEA1BB-930E-457B-8D9F-20FEA805F7A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RIKWWASIMHXOF3GZ43ZEK1JRP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_IPGY3MUALHIOPEO3FOLLFDX1AG.htm"><Data
+      ss:Type="String">Kraje</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{CBE15975-8B46-4A5D-AA83-5D2315A7A133}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IPGY3MUALHIOPEO3FOLLFDX1AG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_WJMYVWZEINDL342V01C0CX3FCC.htm"><Data
+      ss:Type="String">Kurzové rozdíly</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{F3EDE5E3-74EA-11D3-905B-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WJMYVWZEINDL342V01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_C0ORVQV1MJDL342V01C0CX3FCC.htm"><Data
+      ss:Type="String">Kurzové rozdíly aktivní a pasivní</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DB7D2940-9361-11D3-905B-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">C0ORVQV1MJDL342V01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_QXC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Kurzovní lístek</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550B7-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">QXC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_22M1LZYLNRE4LBCL5FRQRSAORO.htm"><Data
+      ss:Type="String">Kurzovní lístek INTRASTAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{FF18A410-9DD1-48D4-9D11-2AEF6BE0D4BD}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">22M1LZYLNRE4LBCL5FRQRSAORO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_RXC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Kusové slevy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550BF-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RXC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_C0AUTOW5YRDL3C5P00CA141B44.htm"><Data
+      ss:Type="String">Měny</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D3AC0D40-F585-11D3-A0B5-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">C0AUTOW5YRDL3C5P00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_RPC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Místa</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550BD-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RPC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_O1C4ERBIVNIOT4WASH5MYY14CK.htm"><Data
+      ss:Type="String">Nabídky vydané</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{5C4550A0-DCEE-4CDD-9386-C34B2F782444}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O1C4ERBIVNIOT4WASH5MYY14CK</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_NPC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Období</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7425509D-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NPC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_MSDX1CLZ5T0434YNRPT1VLVFM4.htm"><Data
+      ss:Type="String">Obecné pracovní pozice</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{A2D01396-2E3F-4140-93D3-BD721DC76B91}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MSDX1CLZ5T0434YNRPT1VLVFM4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_ODC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Obchodní případy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550A2-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ODC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_O2XDU14IW3DL342X01C0CX3FCC.htm"><Data
+      ss:Type="String">Objednávky přijaté</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{049DBAA0-E08E-11D3-905D-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O2XDU14IW3DL342X01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_GF53HAH3WBDL3C5P00CA141B44.htm"><Data
+      ss:Type="String">Objednávky vydané</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{9936CA62-E1A3-11D3-A0B5-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GF53HAH3WBDL3C5P00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_GHMMWARGXRE13FWD00C5OG4NF4.htm"><Data
+      ss:Type="String">Obnova dat</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1A2E6563-EDEC-11D4-AF89-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GHMMWARGXRE13FWD00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_TEMCU0UVB5J4VC0LJO3GXGSCXK.htm"><Data
+      ss:Type="String">Obrázky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{038DA4CA-395B-4D5E-A011-7D06CEB308EC}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEMCU0UVB5J4VC0LJO3GXGSCXK</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_AG0Z3KQNXPWOJ3AMNJ1I34UT2W.htm"><Data
+      ss:Type="String">Okresy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{C2F10133-EDD3-4779-8CD2-9BC2E1935917}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AG0Z3KQNXPWOJ3AMNJ1I34UT2W</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SPC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Opakované platby</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C5-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SPC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_5HGFWXEGTRV4JG3ULFWGTOTA5O.htm"><Data
+      ss:Type="String">Operace</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{75BE582B-CD4C-47F6-B07A-8AF8CCD3262D}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">5HGFWXEGTRV4JG3ULFWGTOTA5O</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_W01A21CP33DL35IV01C0CX3F40.htm"><Data
+      ss:Type="String">Ostatní příjmy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{056102E0-1815-11D3-95DB-005004746B20}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">W01A21CP33DL35IV01C0CX3F40</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_W41A21CP33DL35IV01C0CX3F40.htm"><Data
+      ss:Type="String">Ostatní výdaje</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{056102E1-1815-11D3-95DB-005004746B20}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">W41A21CP33DL35IV01C0CX3F40</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_O2S5RQG353F13FG501C0C2VN0K.htm"><Data
+      ss:Type="String">Placené svátky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D95BB0A0-2883-11D6-AD85-0050040B7304}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O2S5RQG353F13FG501C0C2VN0K</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_41A2RN3O4RDL3BLX00C5OG4NF4.htm"><Data
+      ss:Type="String">Platební příkazy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{CC2B4C20-2574-11D3-9E3D-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">41A2RN3O4RDL3BLX00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_MLC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Počátky účtů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255094-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MLC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_DSLIEM5O54VOJ3D4BTKLC5HBTO.htm"><Data
+      ss:Type="String">Počty zaměstnanců</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{48E5224E-29B4-4737-8D24-3E611415A7CD}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DSLIEM5O54VOJ3D4BTKLC5HBTO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_3D11RUWPCUY4J2TI1LHL5TN5N0.htm"><Data
+      ss:Type="String">Podání INTRASTAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{EB1B421A-4695-47BC-8B2E-0C5B12E66598}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3D11RUWPCUY4J2TI1LHL5TN5N0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_4CKGXRI5BEV4B2TEODYHI2S45O.htm"><Data
+      ss:Type="String">Pohyby na nabídkách vydaných</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DDCE2022-3AC5-43B6-8B2A-A27CD70B042D}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">4CKGXRI5BEV4B2TEODYHI2S45O</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_T2FWDKF0NSSOBC2KLELLUBPBXW.htm"><Data
+      ss:Type="String">Pohyby na objednávkách přijatých</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{C1C497C8-9E60-4331-A050-8AA31D1EA7EF}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">T2FWDKF0NSSOBC2KLELLUBPBXW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_D42ABO5BCI3O1CC4PH21RIL2OW.htm"><Data
+      ss:Type="String">Pohyby na objednávkách vydaných</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D0630449-43A7-4087-A104-AB441BBA22A7}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">D42ABO5BCI3O1CC4PH21RIL2OW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SQGP3TPO44X43GHSPIN3MRSCY4.htm"><Data
+      ss:Type="String">Pohyby rezervací</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E65199C5-21B4-413A-B1B8-ABA6395F08F1}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SQGP3TPO44X43GHSPIN3MRSCY4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_S1X0KZC0NJE13C5U00CA141B44.htm"><Data
+      ss:Type="String">Pohyby šarží/sér.č.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7D087AC0-9B00-11D4-A0BA-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">S1X0KZC0NJE13C5U00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_S5C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Pokladní příjmy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C1-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">S5C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_00ENIR0CJBE13C5T00CA141B44.htm"><Data
+      ss:Type="String">Pokladní reporty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{5C371500-7908-11D4-A0B9-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">00ENIR0CJBE13C5T00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_S1C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Pokladní výdeje</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C0-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">S1C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_PHC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Pokladny</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550AB-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_EEBC3WMTP1X4P0JT0R0CPGPUYC.htm"><Data
+      ss:Type="String">Pomocné nástroje administrace</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{F2818E52-A859-4A7A-81F9-05C08AB2BAF2}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EEBC3WMTP1X4P0JT0R0CPGPUYC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_JOMAHVI3B5IOX4DSRG3XS4FZKG.htm"><Data
+      ss:Type="String">Poštovní reporty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{ED66247D-39C3-4E5D-9138-BB07DC117F83}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">JOMAHVI3B5IOX4DSRG3XS4FZKG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_VW0YK4W5AYM4JELJ5QHD4JFMPW.htm"><Data
+      ss:Type="String">Poštovní úřady</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{13E801DF-3785-47A4-AA2F-2D9A923D72AF}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VW0YK4W5AYM4JELJ5QHD4JFMPW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_CPP0KYEFS1D4JFZBJPZHUELMAW.htm"><Data
+      ss:Type="String">Potvrzení dobropisů vydaných</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{79086A45-C04B-4752-AFE7-7D7EDD2A3237}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CPP0KYEFS1D4JFZBJPZHUELMAW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_JY1HBJ1XOCVOJFWUGY01TGPG14.htm"><Data
+      ss:Type="String">Povahy transakcí</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{BCD3827F-A23D-4737-AF9A-67801CB2AC09}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">JY1HBJ1XOCVOJFWUGY01TGPG14</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_K3SPLRQFGR1OV4CLKZ1MM0NYA0.htm"><Data
+      ss:Type="String">Povolení oprav</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DE58F180-65CB-4DC3-9111-87C329027E30}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">K3SPLRQFGR1OV4CLKZ1MM0NYA0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SF5MZPEK3JE1342X01C0CX3FCC.htm"><Data
+      ss:Type="String">Požadavky na objednávky vydané</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D52FCBC2-1B50-11D4-905D-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SF5MZPEK3JE1342X01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_FTPL0VO4WHAO1FV04ZHCXNC5L0.htm"><Data
+      ss:Type="String">Požadavky na změnu ceny</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{6E106B5E-E384-404D-AF60-27DA8ECD0588}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FTPL0VO4WHAO1FV04ZHCXNC5L0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_W4KZUWQ2ANF13FG501C0C2VN0K.htm"><Data
+      ss:Type="String">Pracovní kalendář</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{72FD21E1-34C2-11D6-AD85-0050040B7304}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">W4KZUWQ2ANF13FG501C0C2VN0K</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_IJJNBAOQPCD4HJUONWZDGWCDJW.htm"><Data
+      ss:Type="String">Pravidla zpracování doručené e-mail. pošty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{9A33DF73-AA96-4612-BF54-9F3E9671097F}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IJJNBAOQPCD4HJUONWZDGWCDJW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_5JEHSGSIADMOF3ICMYFXH3PZNC.htm"><Data
+      ss:Type="String">Pravidla zpracování front souborů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{33DCD42B-320E-4565-8DC8-9797D68EBF9A}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">5JEHSGSIADMOF3ICMYFXH3PZNC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_HKUDLFRTI52OHCL4E3MHE5WH3G.htm"><Data
+      ss:Type="String">Právní formy společností</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{AE98346C-71F9-4645-A224-50E4D5178D1B}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HKUDLFRTI52OHCL4E3MHE5WH3G</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_X5LLL2FQ4HFOL3403ATDEDX5XW.htm"><Data
+      ss:Type="String">Prohlížeč Wiki</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{891863E9-2376-4857-8C80-19B29527A5EF}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">X5LLL2FQ4HFOL3403ATDEDX5XW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_CHAXOLB2KTZ4JC0YKAW41L1UE4.htm"><Data
+      ss:Type="String">Projekty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{44DA4D43-86E2-477E-A01E-81B840C43A51}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CHAXOLB2KTZ4JC0YKAW41L1UE4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_J5S2VQSNKUP45H01R31BTTIJBC.htm"><Data
+      ss:Type="String">Protokoly kontrol nespolehlivých plátců DPH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DB2D7079-8613-42AA-B401-B8C27CE5CF3A}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">J5S2VQSNKUP45H01R31BTTIJBC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_IDOHL524EUF4XF2BY2DSGVJ5IO.htm"><Data
+      ss:Type="String">Provedené uzávěrky skladu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{94D86872-5644-4E96-AC47-F093866DE575}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IDOHL524EUF4XF2BY2DSGVJ5IO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_YM2EMGXR1N3OTAOQQKO3PARQXO.htm"><Data
+      ss:Type="String">Provozovny</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{33A984F4-0CB7-4CC7-9A96-B4283A9AF6ED}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">YM2EMGXR1N3OTAOQQKO3PARQXO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_KDAPIOFTKRE1342Y01C0CX3FCC.htm"><Data
+      ss:Type="String">Průvodce nastavením firmy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{51574D82-8579-11D4-905E-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">KDAPIOFTKRE1342Y01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_413RFXNB0NDL3BLX00C5OG4NF4.htm"><Data
+      ss:Type="String">Přehled DPH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{F6754720-0467-11D3-9E3D-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">413RFXNB0NDL3BLX00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_YS3KIBIU3544PG40KBQWXWKBAS.htm"><Data
+      ss:Type="String">Přehled plateb bankou</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1D0707F6-19DA-4A48-B080-81EDCEF20736}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">YS3KIBIU3544PG40KBQWXWKBAS</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_BH0I5SAOS3DL3ACU03KIU0CLP4.htm"><Data
+      ss:Type="String">Převodky - příjmy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E0E2403B-C0D4-11D3-991A-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BH0I5SAOS3DL3ACU03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_BD0I5SAOS3DL3ACU03KIU0CLP4.htm"><Data
+      ss:Type="String">Převodky - výdeje</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E0E2403A-C0D4-11D3-991A-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BD0I5SAOS3DL3ACU03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_H1V34BK4BJOOLFNU4WANHL3M2C.htm"><Data
+      ss:Type="String">Příjem hotových výrobků</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1E327668-3B04-48E9-AE7A-270D36C47212}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">H1V34BK4BJOOLFNU4WANHL3M2C</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_B10I5SAOS3DL3ACU03KIU0CLP4.htm"><Data
+      ss:Type="String">Příjemky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E0E24038-C0D4-11D3-991A-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">B10I5SAOS3DL3ACU03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_MXC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Reporty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255097-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MXC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_HDYHFVG50LEO30AE1HJ5WEAIY0.htm"><Data
+      ss:Type="String">Reporty call centra</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{EDD57C6A-0485-4155-80CA-0B5E5E28CEF0}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HDYHFVG50LEO30AE1HJ5WEAIY0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_RO2NOXNQYPKOX1BIFJPBNSULF4.htm"><Data
+      ss:Type="String">Reporty ceníků</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{763A05BD-F576-4E61-84EE-5BEA79E35159}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RO2NOXNQYPKOX1BIFJPBNSULF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_TZVHH1HVCST4D11VZXC2J0YVSC.htm"><Data
+      ss:Type="String">Reporty INTRASTAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{85D6F6CF-46BB-4432-843B-FF502783DBC2}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TZVHH1HVCST4D11VZXC2J0YVSC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_KEAYKHP2M2QOJ0UH5DJHUBBED4.htm"><Data
+      ss:Type="String">Reporty Knihy jízd</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{36E88D82-90A2-47AD-834D-2A5EDD1CEA49}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">KEAYKHP2M2QOJ0UH5DJHUBBED4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_H0NGS5BP3W34DHVJDAXRG4ELRW.htm"><Data
+      ss:Type="String">Reporty nabídek, poptávek a objednávek</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{14CC2668-1FF5-4406-B76F-49BB761151BF}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">H0NGS5BP3W34DHVJDAXRG4ELRW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_PR1XMVYLQ22OHGVZ2M44PFO1RC.htm"><Data
+      ss:Type="String">Reporty nákupu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{6FD9C3AD-B0D1-4685-B37F-14884AAE81BA}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PR1XMVYLQ22OHGVZ2M44PFO1RC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_2AFFHDFP0TS4JCRWECIC0BDNMC.htm"><Data
+      ss:Type="String">Reporty ostatních dokladů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{A5B69611-0675-4770-A2FC-521C801D3392}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2AFFHDFP0TS4JCRWECIC0BDNMC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_TO23B3UNLDLOF213UZNEPH0QRS.htm"><Data
+      ss:Type="String">Reporty prodeje</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{8F3304CD-8A53-4563-8823-D7E6AAB416BE}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TO23B3UNLDLOF213UZNEPH0QRS</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_NKZV4QM1Z4FO11HLLOMXKZPLIS.htm"><Data
+      ss:Type="String">Reporty segmentace trhu a aktivit</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{5AB23F9C-F941-4017-85B1-8D25D87EB176}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NKZV4QM1Z4FO11HLLOMXKZPLIS</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_G0WDYR3MZSU43HPRDJSWI2VN34.htm"><Data
+      ss:Type="String">Roční fondy pracovní doby</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{5C9F3860-FE72-4134-B6B7-4BF1C70B7319}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">G0WDYR3MZSU43HPRDJSWI2VN34</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_33H4G5TW1HO4X50FMD550R0DQG.htm"><Data
+      ss:Type="String">Role</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1746DA18-0B3C-4E68-940B-924A505C09B3}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">33H4G5TW1HO4X50FMD550R0DQG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_YM3S0SWOO0Z4FHDJBX3DDCE3TG.htm"><Data
+      ss:Type="String">Rozlišení typu plnění (ESL)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{638087F4-A094-453E-B52F-3F4694A143CB}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">YM3S0SWOO0Z4FHDJBX3DDCE3TG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_NTC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Řady dokladů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7425509E-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NTC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_G0UIHS0Y53E13C5R00CA141B44.htm"><Data
+      ss:Type="String">Saldokonto - účetní deník souvztažně</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E0E63460-281E-11D4-A0B7-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">G0UIHS0Y53E13C5R00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_41Q2QTCGJBE13C5T00CA141B44.htm"><Data
+      ss:Type="String">Sankční faktury</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{652B6C20-790C-11D4-A0B9-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">41Q2QTCGJBE13C5T00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_QYGO34HWP2HOTC5WVKARWEVYG4.htm"><Data
+      ss:Type="String">Sazby úroků z prodlení</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{914199B7-A8BC-4C9B-A0BC-DC0D7E2B7E61}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">QYGO34HWP2HOTC5WVKARWEVYG4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_VNJGDP5MU4K4V5GWUFOHULYHVG.htm"><Data
+      ss:Type="String">Servisní knížka</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D4C4DEDC-D1B2-4D20-959C-D2E8DD47CDDB}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VNJGDP5MU4K4V5GWUFOHULYHVG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_ZH4FA2DSLNX45FDP0IJYORWKNC.htm"><Data
+      ss:Type="String">Schvalovací scénáře</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{09B348FB-8C38-42FA-AD35-039FEA5F909A}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ZH4FA2DSLNX45FDP0IJYORWKNC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_H3BA3QQYSEQOTCQWPKM3DF1OPO.htm"><Data
+      ss:Type="String">Schvalování dokladů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DA61CE68-C2DE-4CAD-A2DC-AC2434AC34AD}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">H3BA3QQYSEQOTCQWPKM3DF1OPO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_W31KWYTC5FDL342M01C0CX3FCC.htm"><Data
+      ss:Type="String">Skladové karty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7B0EC3E0-2A28-11D3-9052-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">W31KWYTC5FDL342M01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_4MP1E2VUANDL342Q01C0CX3FCC.htm"><Data
+      ss:Type="String">Skladové menu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{0B15AA24-347A-11D3-9056-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">4MP1E2VUANDL342Q01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_05O2XT2S23E13HBT00C5OG4NF4.htm"><Data
+      ss:Type="String">Skladové pohyby</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E42E6801-1058-11D4-B4F9-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">05O2XT2S23E13HBT00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_GCY5FVBPHBE1342Y01C0CX3FCC.htm"><Data
+      ss:Type="String">Skladové reporty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{EC553C62-69F5-11D4-905E-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GCY5FVBPHBE1342Y01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_0AJDJBKJ5VDL342P01C0CX3FCC.htm"><Data
+      ss:Type="String">Skladové typy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{9E979E01-2E0F-11D3-9055-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">0AJDJBKJ5VDL342P01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_OFZO2K155FDL3CL100C4RHECN0.htm"><Data
+      ss:Type="String">Sklady</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{4041FFA2-2A25-11D3-A221-00104BB54898}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OFZO2K155FDL3CL100C4RHECN0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_5VAINDHQ1TYOH01AGDUGJ5D0XW.htm"><Data
+      ss:Type="String">Skupiny dodacích podmínek</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{A5E9CC2E-0EB6-467D-8026-6274C79520EF}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">5VAINDHQ1TYOH01AGDUGJ5D0XW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_LCEP030UUNX45BTN5LHFUA0I1O.htm"><Data
+      ss:Type="String">Skupiny kategorizačních údajů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{0C50158A-D41A-42FA-9F33-2C5ABD180E0D}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LCEP030UUNX45BTN5LHFUA0I1O</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_KXOSXMYWAVE13C5S00CA141B44.htm"><Data
+      ss:Type="String">Skupiny rolí</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{CB8E6987-36DC-11D4-A0B8-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">KXOSXMYWAVE13C5S00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_CHEISZBA2CYO14WNOFGIQHYVPK.htm"><Data
+      ss:Type="String">Sortimentní skupiny</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7CEC5443-12E6-403D-9393-A2D8EB37DBAC}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CHEISZBA2CYO14WNOFGIQHYVPK</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_O3H3FIDV2ZDL3A2B01C0CSUFSG.htm"><Data
+      ss:Type="String">Správa licencí</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{B935DAA0-173B-11D3-9847-005004634BC3}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O3H3FIDV2ZDL3A2B01C0CSUFSG</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_WJXAQK2UPYO4RCHOSGZ0VPTKDS.htm"><Data
+      ss:Type="String">Stavy nabídek vydaných</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{406BFAE3-AF5A-4BA8-A1B4-C33E0DD7304E}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WJXAQK2UPYO4RCHOSGZ0VPTKDS</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_BN11NRO4J1FOTFKUO4SND0KVIW.htm"><Data
+      ss:Type="String">Struktury kódu šarží a sériových čísel</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DE19C23C-7884-4C57-AE1A-A13134821B77}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BN11NRO4J1FOTFKUO4SND0KVIW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_NXC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Střediska</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7425509F-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NXC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_005WXDGLTVDL342W01C0CX3FCC.htm"><Data
+      ss:Type="String">Šarže/sér.č.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{A5CE0B00-CE91-11D3-905C-005004746B42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">005WXDGLTVDL342W01C0CX3FCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SLC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Tabulky obratů dealerů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C4-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SLC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_FKD22JRV3V143G0YOYB33TGLR0.htm"><Data
+      ss:Type="String">Typy dokladů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{3E21125C-1EFB-41C2-B01E-A78E31E591B8}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FKD22JRV3V143G0YOYB33TGLR0</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_KBTK5GWHG2HONGNKJTT1Z1GL40.htm"><Data
+      ss:Type="String">Typy nabídek vydaných</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{B302F381-608D-499B-B270-7E721F859120}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">KBTK5GWHG2HONGNKJTT1Z1GL40</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_YO3OQEA5UY4OVC5HUPPOMHDIQO.htm"><Data
+      ss:Type="String">Typy plnění - přenesení daňové povinnosti</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{284B07F5-D7C5-4D89-A0AD-D56B49352EB5}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">YO3OQEA5UY4OVC5HUPPOMHDIQO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_G1FIX0QNKNDL3ACT03KIU0CLP4.htm"><Data
+      ss:Type="String">Typy příjmů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{82EE5660-84D3-11D3-9919-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">G1FIX0QNKNDL3ACT03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_MHJR0VRZQZUOD3Q0BTXU2KHZMK.htm"><Data
+      ss:Type="String">Typy vlastnictví</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{6E705F93-B7FF-44F5-8EC0-3E7BA141BF94}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MHJR0VRZQZUOD3Q0BTXU2KHZMK</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_G5FIX0QNKNDL3ACT03KIU0CLP4.htm"><Data
+      ss:Type="String">Typy výdajů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{82EE5661-84D3-11D3-9919-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">G5FIX0QNKNDL3ACT03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_M5C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Účetní deník</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255091-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">M5C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_MPC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Účetní předkontace</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255095-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MPC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_PR0HJFBDCNM4LCX2FVFOKZDYFW.htm"><Data
+      ss:Type="String">Účetní reporty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{ACD7C0AD-44E9-48E4-A3A2-5ED7487D3E5F}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PR0HJFBDCNM4LCX2FVFOKZDYFW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_O1C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Účetní řady</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550A0-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O1C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_0BTPBPQUCRE13DQC01C0CX3F40.htm"><Data
+      ss:Type="String">Účetní výkazy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D653F301-45DA-11D4-A6C8-005004746B20}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">0BTPBPQUCRE13DQC01C0CX3F40</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_RLC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Účetní závěrka</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550BC-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RLC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_MTC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Účetní žádosti</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255096-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MTC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_MHC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Účtový rozvrh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{74255093-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MHC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_45Q2QTCGJBE13C5T00CA141B44.htm"><Data
+      ss:Type="String">Upomínky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{652B6C21-790C-11D4-A0B9-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">45Q2QTCGJBE13C5T00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_43GRUUCGNRDL331C00C5OG4NF4.htm"><Data
+      ss:Type="String">Uzávěrka bankovních účtů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{697DD920-9D0C-11D3-8C28-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">43GRUUCGNRDL331C00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_4EW4T11DQFDL331C00C5OG4NF4.htm"><Data
+      ss:Type="String">Uzávěrka fakturace</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{844CB822-B229-11D3-8C28-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">4EW4T11DQFDL331C00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_5PPJACSOYWM4DC552BKXMOJA2G.htm"><Data
+      ss:Type="String">Uzávěrka ostatních dokladů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{23F36A2D-F714-4424-A0A5-11E1D951E613}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">5PPJACSOYWM4DC552BKXMOJA2G</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_4BGRUUCGNRDL331C00C5OG4NF4.htm"><Data
+      ss:Type="String">Uzávěrka pokladen</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{697DD921-9D0C-11D3-8C28-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">4BGRUUCGNRDL331C00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_W5ZO3LYV4BE13HBT00C5OG4NF4.htm"><Data
+      ss:Type="String">Uzávěrka skladu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{C7417FE1-21DB-11D4-B4F9-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">W5ZO3LYV4BE13HBT00C5OG4NF4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_KSG5LWEKSXTOFGI3IDHTGTQMAO.htm"><Data
+      ss:Type="String">Uzávěrky DPH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{F1581886-C750-4573-B1C3-725B9666D235}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">KSG5LWEKSXTOFGI3IDHTGTQMAO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_KTOSXMYWAVE13C5S00CA141B44.htm"><Data
+      ss:Type="String">Uživatelé</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{CB8E6986-36DC-11D4-A0B8-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">KTOSXMYWAVE13C5S00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_W5QHAQXMGRJOVHIVPCF3UUWSKK.htm"><Data
+      ss:Type="String">Variantní formuláře</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{5BD36CE1-65B2-4DDF-B5DB-AA163D6B9884}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">W5QHAQXMGRJOVHIVPCF3UUWSKK</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_F2ZW2PN25Z0OP1MMW1HUY2UCXC.htm"><Data
+      ss:Type="String">Vrácení materiálu z výroby</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{56C1BF58-2F62-4AC1-8652-E05BAF0B48EA}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">F2ZW2PN25Z0OP1MMW1HUY2UCXC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SXC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Vrácení pokladních příjmů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C7-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SXC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_STC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Vrácení pokladních výdejů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C6-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">STC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_BL0I5SAOS3DL3ACU03KIU0CLP4.htm"><Data
+      ss:Type="String">Vratky dodacích listů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{E0E2403C-C0D4-11D3-991A-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BL0I5SAOS3DL3ACU03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_NN20CW0TDQSODH2FPC5IVSYIKW.htm"><Data
+      ss:Type="String">Vratky příjemek</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7004C49C-4D19-44B1-B44B-AA0AEDE3CE87}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NN20CW0TDQSODH2FPC5IVSYIKW</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_2G2NF000OAW453RLXBYYSGPGAS.htm"><Data
+      ss:Type="String">Výdej materiálu do výroby</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{80350513-A100-42B8-8EF1-E9FDEC32AC36}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2G2NF000OAW453RLXBYYSGPGAS</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_CM5R2TVEV1POL2YTKKTARVWFWC.htm"><Data
+      ss:Type="String">Výsledky hodnocení dodavatelů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{67718B44-D86A-486B-8BD9-84326BEF8BE2}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CM5R2TVEV1POL2YTKKTARVWFWC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_EN241ONG3V145EHRJRFDDBOP5G.htm"><Data
+      ss:Type="String">Vytvoření nové firmy - nové spojení</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D240C454-1E6C-42C2-A9B7-7DD6949E952B}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EN241ONG3V145EHRJRFDDBOP5G</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_NRTBELG40EB4HEBHFJHJGDPPIO.htm"><Data
+      ss:Type="String">Vzájemné zápočty</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{4575F29D-0284-468E-A8ED-5BDAF626B575}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NRTBELG40EB4HEBHFJHJGDPPIO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_FTMPL0EW33I4BHTKCPSHHD2HCC.htm"><Data
+      ss:Type="String">Webové služby</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{8158655E-185C-43DC-B730-4570D6A44D42}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FTMPL0EW33I4BHTKCPSHHD2HCC</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_EH1Y20VQ4IFOX4GYEQRPC4L3I4.htm"><Data
+      ss:Type="String">Wiki prostory</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{03E14353-2376-4E97-919E-55AF54122371}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EH1Y20VQ4IFOX4GYEQRPC4L3I4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_OW1403MVCEM4P4GRSGUPULVMB4.htm"><Data
+      ss:Type="String">Wiki soubory</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{0E4002A7-425B-4AA4-9197-C3355D477239}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OW1403MVCEM4P4GRSGUPULVMB4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_SBZD1FVKC3SOJBWMYKVLKDABZO.htm"><Data
+      ss:Type="String">Wiki stránky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{AF90FEC1-4070-47F1-9F92-F4371824C7FD}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SBZD1FVKC3SOJBWMYKVLKDABZO</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_O5C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Zakázky</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550A1-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O5C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_NLC2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Zálohování dat</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{7425509C-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NLC2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_T5C2EX0BUJD13ACP03KIU0CLP4.htm"><Data
+      ss:Type="String">Zálohové listy přijaté</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{742550C9-D307-11D2-9915-00E0ED0111A9}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">T5C2EX0BUJD13ACP03KIU0CLP4</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_S4RQ0AMDM3DL35J301C0CX3F40.htm"><Data
+      ss:Type="String">Zálohové listy vydané</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{1A602FC1-9049-11D3-95E3-005004746B20}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">S4RQ0AMDM3DL35J301C0CX3F40</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_C4AUTOW5YRDL3C5P00CA141B44.htm"><Data
+      ss:Type="String">Země</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D3AC0D41-F585-11D3-A0B5-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">C4AUTOW5YRDL3C5P00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_COAUTOW5YRDL3C5P00CA141B44.htm"><Data
+      ss:Type="String">Způsoby dopravy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D3AC0D45-F585-11D3-A0B5-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">COAUTOW5YRDL3C5P00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_R3WRPQUN224432NEIOSJ0OXS3C.htm"><Data
+      ss:Type="String">Způsoby komunikace</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{DB7AF9B8-1053-4188-8A6A-7530F053B81A}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">R3WRPQUN224432NEIOSJ0OXS3C</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_CKAUTOW5YRDL3C5P00CA141B44.htm"><Data
+      ss:Type="String">Způsoby úhrady</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{D3AC0D44-F585-11D3-A0B5-001060902721}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CKAUTOW5YRDL3C5P00CA141B44</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_UIMSHJGLSUYOXH31BM0LTVR55C.htm"><Data
+      ss:Type="String">Zvláštní pohyby</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{BD86A5D3-C691-4EBD-B461-3C811CEEE52A}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UIMSHJGLSUYOXH31BM0LTVR55C</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:StyleID="s66" ss:HRef="mk:@MSITStore:D:\ABRAG32_XE\G3Doc.chm::/html/SITE_40FI4H5P53DL3BLX00C5OG4NF4.htm"><Data
+      ss:Type="String">Žádosti platebních příkazů</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">{34E21620-28B5-11D3-9E3D-00105A309359}</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">40FI4H5P53DL3BLX00C5OG4NF4</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R206C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="List2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="List3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

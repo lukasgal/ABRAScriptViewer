@@ -23,11 +23,13 @@ class ScriptPackage extends XMLParser implements DefaultInterface {
     private String fullPath;
     private boolean isNew;
     private Packages parent;
+    private String encoding;
     
     public ScriptPackage(Document doc) throws XPathExpressionException, Exception {
         super(doc);
         this.setScripts();
         this.isNew = true;
+        this.encoding = doc.getXmlEncoding();
     }
 
     private void setScripts() throws XPathExpressionException, Exception {
@@ -45,10 +47,13 @@ class ScriptPackage extends XMLParser implements DefaultInterface {
                     script.setPosition(-1);
                 script.setScriptID(((Element) rows.item(i)).getElementsByTagName("ScriptID").item(0).getTextContent());
                 script.setCode(this.getScriptData(((script.getPosition()==-1)?(-1):(i + 1))));
+
                 script.setRows(CodeParser.parse(script.getCode()));
+                
                 this.rows.add(script);
             } catch (NullPointerException ex) {
                 ex.printStackTrace();
+                System.out.println(ex.getLocalizedMessage());
             }
         }
     }
@@ -133,4 +138,13 @@ class ScriptPackage extends XMLParser implements DefaultInterface {
     String getFileName() {
         return new File(getFullPath()).getName().replace(".xml", "");
     }
+
+    public String getEncoding() {
+        return encoding;
+    }
+
+    public void setEncoding(String encoding) {
+        this.encoding = encoding;
+    }
+    
 }

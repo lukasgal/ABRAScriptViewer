@@ -30,11 +30,13 @@ public class XMLReader {
         try {
             System.out.println(fileURL.toString());
             InputStream istream;
+            
             istream = fileURL.openStream();
             istream = checkForUtf8BOM(istream);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             this.xmlDoc = (Document) dBuilder.parse(istream);
+            this.xmlDoc.normalizeDocument();
             System.out.println(this.xmlDoc.getXmlEncoding());
 
         } catch (IOException | ParserConfigurationException | SAXException ex) {

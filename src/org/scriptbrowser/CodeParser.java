@@ -56,10 +56,10 @@ public final class CodeParser {
             }
 
             line = (line.contains("//")) ? line.substring(0, line.indexOf("//")) : line;
-            line = (line.contains("(*")) ? line.substring(0, line.indexOf("{*")) : line;
+            line = (line.contains("(*")) ? line.substring(0, line.indexOf("(*")) : line;
             line = (line.contains("{")) ? line.substring(0, line.indexOf("{")) : line;
             line = (line.contains("}")) ? line.substring(0, line.indexOf("}")) : line;
-            line = (line.contains("*)")) ? line.substring(0, line.indexOf("*)")) : line;
+            line = (line.contains("*)")) ? line.substring(0, line.indexOf("*    )")) : line;
 
             if (line.length() < 1) {
                 continue;

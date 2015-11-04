@@ -17,8 +17,10 @@ class Script implements DefaultInterface {
     private int scriptKind;
     private int position;
     private String code;
-
+    private static final Agenda agenda = new Agenda();
+    private static final BusinessObject bo = new BusinessObject();
     private ArrayList<DefaultInterface> rows;
+    private static final String[] scriptKindName = new String[]{"Knihovna","Business objekt","Agenda","Číselník","Importovací manager","Aplikační modul"};
 
     public Script() {
     }
@@ -28,7 +30,7 @@ class Script implements DefaultInterface {
     }
 
     public void setScriptID(String scriptID) {
-        this.scriptID = scriptID;
+        this.scriptID = scriptID.trim();
     }
 
     public int getScriptKind() {
@@ -53,7 +55,14 @@ class Script implements DefaultInterface {
 
     @Override
     public String getShortName() {
-        return getScriptID();
+        String ret = "";
+        switch(this.scriptKind){
+            case 1:{
+                ret = bo.getBOName(getScriptID());break;}
+            case 2:{ret = agenda.getAgendaName(getScriptID());break;}
+            default: ret = getScriptID();
+        }
+        return ret;
     }
 
     @Override
@@ -93,5 +102,9 @@ class Script implements DefaultInterface {
             }
         }
         return fRows;
+    }
+    
+    public String getScriptKindName(){
+        return scriptKindName[getScriptKind()];
     }
 }

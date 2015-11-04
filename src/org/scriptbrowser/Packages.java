@@ -21,7 +21,6 @@ class Packages implements DefaultInterface {
         this.name = name;
     }
 
-    
     @Override
     public ArrayList<DefaultInterface> getRows() {
         return rows;
@@ -43,8 +42,7 @@ class Packages implements DefaultInterface {
         return getShortName().toUpperCase().contains(c.toUpperCase());
 
     }
-   
-    
+
     @Override
     public ArrayList<DefaultInterface> getFilteredRows(String s) {
         ArrayList<DefaultInterface> fRows = new ArrayList<>();
@@ -55,14 +53,17 @@ class Packages implements DefaultInterface {
         }
         return fRows;
     }
-    
+
     public boolean isPackageInRows(String path) {
-        
+
         for (DefaultInterface di : getRows()) {
-            if(di instanceof ScriptPackage){
-                if(((ScriptPackage)(di)).getFullPath().equals(path))
+            if (di instanceof ScriptPackage) {
+                if (((ScriptPackage) (di)).getFullPath().equals(path)) {
                     return true;
-            }else return (((Packages)di).isPackageInRows(path)) ;                
+                }
+            } else {
+                return (((Packages) di).isPackageInRows(path));
+            }
         }
         return false;
     }
@@ -74,20 +75,22 @@ class Packages implements DefaultInterface {
     public void setName(String name) {
         this.name = name;
     }
-    
-    public void addRow(ScriptPackage add){
-        for (DefaultInterface di : getRows()) {
-            if (((Packages)di).getName().equals(add.getName())) {
-                add.setParent((Packages)di);
-                ((Packages)di).getRows().add(add);
-                return;
+
+    public void addRow(ScriptPackage add) {
+        synchronized (this) {
+            for (DefaultInterface di : getRows()) {
+                if (((Packages) di).getName().equals(add.getName())) {
+                    add.setParent((Packages) di);
+                    ((Packages) di).getRows().add(add);
+                    return;
+                }
             }
+            Packages newPackage = new Packages(add.getName());
+            newPackage.setParent(this);
+            newPackage.getRows().add(add);
+            add.setParent((Packages) newPackage);
+            this.getRows().add(newPackage);
         }
-        Packages newPackage = new Packages(add.getName());
-        newPackage.setParent(this);
-        newPackage.getRows().add(add);
-        add.setParent((Packages)newPackage);
-        this.getRows().add(newPackage);
     }
 
     public Packages getParent() {
@@ -97,5 +100,5 @@ class Packages implements DefaultInterface {
     public void setParent(Packages parent) {
         this.parent = parent;
     }
-    
+
 }

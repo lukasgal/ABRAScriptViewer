@@ -7,6 +7,7 @@ package org.scriptbrowser;
 
 import java.awt.HeadlessException;
 import javax.swing.JOptionPane;
+import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
@@ -28,9 +29,13 @@ public class ABRAScriptBrowser {
             } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
                 e.printStackTrace();
             }
-
-            MainForm mf = new MainForm();
-            mf.setVisible(true);
+            SwingUtilities.invokeLater(new Runnable() {
+                @Override
+                public void run() {
+                    MainForm mf = new MainForm();
+                    mf.setVisible(true);
+                }
+            });
         } catch (HeadlessException ex) {
             JOptionPane.showMessageDialog(null, "Nastala chyba!\n" + ex.getMessage());
         }

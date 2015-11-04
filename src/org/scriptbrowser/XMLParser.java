@@ -39,6 +39,7 @@ public class XMLParser  {
 
         String expression = "ScriptPackageExport/Header";
         NodeList rows = (NodeList) xPath.compile(expression).evaluate(this.doc, XPathConstants.NODESET);
+        
         this.name = ((Element) rows.item(0)).getElementsByTagName("Name").item(0).getTextContent();
         this.description = ((Element) rows.item(0)).getElementsByTagName("Description").item(0).getTextContent();
         this.usageState = Integer.parseInt(((Element) rows.item(0)).getElementsByTagName("UsageState").item(0).getTextContent());

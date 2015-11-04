@@ -23,7 +23,10 @@ public class PackageTreeCellRenderer extends DefaultTreeCellRenderer {
     private final Icon procedureIcon;
     private final Icon rootIcon;
     private final Icon pckGroupIcon;
-
+    private final Icon agendaIcon;
+    private final Icon libIcon;
+    private final Icon boIcon;
+    
     public PackageTreeCellRenderer() {
         this.rootIcon = new ImageIcon(getClass().getResource("/resources/packages.png"));
         this.pckGroupIcon = new ImageIcon(getClass().getResource("/resources/packagesGroup.png"));
@@ -31,7 +34,9 @@ public class PackageTreeCellRenderer extends DefaultTreeCellRenderer {
         this.scriptIcon = new ImageIcon(getClass().getResource("/resources/script.png"));
         this.functionIcon = new ImageIcon(getClass().getResource("/resources/function.png"));
         this.procedureIcon = new ImageIcon(getClass().getResource("/resources/procedure.png"));
-
+        this.agendaIcon = new ImageIcon(getClass().getResource("/resources/agenda.png"));
+        this.libIcon = new ImageIcon(getClass().getResource("/resources/library.png"));
+        this.boIcon = new ImageIcon(getClass().getResource("/resources/bo.png"));
     }
 
     @Override
@@ -55,7 +60,13 @@ public class PackageTreeCellRenderer extends DefaultTreeCellRenderer {
             setIcon(pckIcon);
         }
         if (value instanceof Script) {
-            setIcon(scriptIcon);
+            switch(((Script)value).getScriptKind()){
+                case 0:{setIcon(libIcon);break;}
+                case 1:{setIcon(boIcon);break;}
+                case 2:{setIcon(agendaIcon);break;}
+                default: setIcon(scriptIcon);
+            }
+            
         }
         if (value instanceof MethodDef) {
             if (((MethodDef) value).getType() == MethodDef.TYPE_FUNCTION) {
